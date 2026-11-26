@@ -39,6 +39,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: validation
     steps:
+      - name: Mostrar data
+        run: date
+
       - name: Checkout código
         uses: actions/checkout@v4
 
