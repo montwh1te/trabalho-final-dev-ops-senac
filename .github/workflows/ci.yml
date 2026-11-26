@@ -56,7 +56,6 @@ jobs:
   deploy:
     name: 🚀 Deploy (informativo)
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy
         run: echo "Cloudflare fará deploy automaticamente"
